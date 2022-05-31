@@ -12,3 +12,7 @@
         
 <font color="#4A4AFF">加密效果：</font>杨钱钱卫韩周蒋赵沈冯王蒋褚陈卫李钱吴郑赵郑褚孙吴周陈韩赵王卫冯陈李卫吴李钱沈孙王</br>
 <font color="#4A4AFF">明文示列: </font>magnet:?xt=urn:btih:75497f95810d394e9770d9f56fbfce63b5382ff6
+
+<img src="https://s2.loli.net/2022/05/31/z96Df5SWpMatoxl.jpg"/>
+
+DEMO：https://api.titti.cn/t/ah.html
