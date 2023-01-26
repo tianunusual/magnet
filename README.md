@@ -14,3 +14,7 @@
 <font color="#4A4AFF">明文示列: </font>magnet:?xt=urn:btih:75497f95810d394e9770d9f56fbfce63b5382ff6
 
 
+【DEMO】：https://kwai.eoole.cn/</br>
+【BLOG】：https://blog.eoole.cn/</br>
+【TG Group】：https://t.me/adultdow</br>
+【QQ Group】：123402033</br>
