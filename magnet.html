@@ -1,79 +1,332 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>百家姓磁力加密工具 -  本工具由 titti.cn 提供</title>
-<link rel="shortcut icon" href="../favicon.ico">
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1649818800'></script></head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百家姓暗号转换工具 - Dooglu.Com</title>
+    <link rel="icon" href="https://sg-cdn.9t.ee/logo/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            vertical-align: baseline;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            background-color: #f4f4f4;
+        }
+
+        .main_page {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #ffffff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, .02);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            z-index: 999999;
+        }
+
+        .logo .logo_list {
+            width: 1140px;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        .logo_list img {
+            width: 136px;
+            height: 32px;
+            cursor: pointer;
+        }
+
+        .logo_list .brand {
+            font-size: 14px;
+            color: #bbb;
+            padding-left: 10px;
+            border-left: 2px solid #eaeaea;
+            margin-left: 10px;
+        }
+
+        .main_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main_content .tip {
+            display: block;
+            padding: 16px;
+            margin: 10px 10px 10px 0;
+            border-left: 8px solid #dddfe4;
+            background: #eef0f4;
+            color: #4f4f4f;
+            align-self: flex-start;
+            margin-left: 8%;
+        }
+
+        .main_content .tab_body {
+            width: 85%;
+            margin-top: 20px;
+            height: 600px;
+            overflow: hidden;
+            border-radius: 20px;
+            background: #ffffff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, .02);
+            display: flex;
+        }
+
+        .tab_body .source {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            position: relative;
+        }
+
+        .source textarea {
+            width: 100%;
+            height: 100%;
+            padding: 40px;
+            font: 26px sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .tab_body .divider {
+            height: auto;
+            margin: 32px 0;
+            border-right-width: 1px;
+            border-right-style: dashed;
+            border-color: #c8c9cc;
+        }
+
+        textarea {
+            display: block;
+            position: absolute;
+            z-index: 2;
+            margin: 0;
+            border-radius: 0;
+            color: #444;
+            background-color: transparent;
+            overflow: auto;
+            resize: none;
+        }
+
+        textarea:focus, button:focus {
+            outline: none;
+        }
+
+        .tab_body .target {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: auto;
+        }
+
+        .target .result {
+            margin: 20px 0 0px 20px;
+            font-size: 16px;
+            color: #2a2b2e;
+        }
+
+        .target .content {
+            width: 100%;
+            height: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+            font: 26px sans-serif;
+            letter-spacing: 1px;
+            word-break: break-all;
+            overflow: auto;
+        }
+
+        .target button {
+            display: block;
+            width: 50%;
+            margin: 10px auto 20px;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            background-color: #74637f;
+            font: 18px 'Opens Sans', sans-serif;
+            letter-spacing: 1px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #C2C4BF;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #909090;
+        }
+
+        @media screen and (max-width: 700px) {
+            .tab_body {
+                flex-direction: column;
+            }
+
+            .tab_body .divider {
+                border-top-width: 1px;
+                border-top-style: dashed;
+                width: auto;
+                margin: 0 32px
+            }
+        }
+    </style>
+</head>
 <body>
-<center>百家姓磁力加密
-</br> </br>
-<input type="text" id="c" style="width:500px;">
-<input type="button" id="d" value="加密转换>>>"></br></br></br>
-<input type="text" id="a" style="width:500px;">
-<input type="button" id="b" value="<<<明文转换"><br /><br /><br />
-<font color="#4A4AFF">加密效果：</font>杨钱钱卫韩周蒋赵沈冯王蒋褚陈卫李钱吴郑赵郑褚孙吴周陈韩赵王卫冯陈李卫吴李钱沈孙王
-<br />
-<font color="#4A4AFF">明文示列: </font>magnet:?xt=urn:btih:f11be4c0d87ca9b315606a2549e07b893b531d27<br /><br /><br />
-Admin by @半世吾情
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6fb10ca85f7a0d30',m:'l7ni__iJnbbZmpKkmzRYyQVkiDmnaPiveKpyvz2Zc8Q-1649819854-0-Ad0sXQzJe1lBC+Ejlo3xLsFCiWsRbeKqoSw27iziynEuZQReGDrUUTQbsTZcZR+Yv5w4VUHia8OE22lcz+oXo1G095Ljd+2gn1vM6jV3mBptU3PTj2n/39sdMeBINlsRAA==',s:[0x1e43199ebe,0xe22cdc458b],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<div class="main_page">
+    <div class="logo">
+        <div class="logo_list">
+            <a href="https://tool.Dooglu.Com">
+<img src="https://sg-cdn.9t.ee/logo/logo.png" alt="提供免费的文字加解密服务" width="60" height="60">
+               
+            </a>
+            <div class="brand">
+                更多在线工具
+                <br>
+                tool.Dooglu.Com
+            </div>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="tab_body">
+            <div class="source">
+                <textarea id="myTextArea" maxlength="300" placeholder="请输入要转换的百家姓/任意链接"></textarea>
+            </div>
+            <div class="divider"></div>
+            <div class="target">
+                <div class="result">转换结果:</div>
+                <div class="content" id="transResult">
+                </div>
+                <button id="copyResult">一键复制</button>
+            </div>
+        </div>
+        <div class="tip">小贴士：磁力链接转换前删去'&dn=...'及后面的代码可以更省字符哦~</div>
+    </div>
+</div>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KFuC9tAjx5Ss89Jo",ck:"KFuC9tAjx5Ss89Jo"})</script>
+</body>
 <script>
-    var t='magnet:?xt=urn:btih:';
-    var obja={
-        "赵":"0", "钱":"1", "孙":"2", "李":"3", "周":"4", "吴":"5", "郑":"6", "王":"7", "冯":"8", "陈":"9",
-        "褚":"a", "卫":"b", "蒋":"c", "沈":"d", "韩":"e", "杨":"f", "朱":"g", "秦":"h", "尤":"i", "许":"j",
-        "何":"k", "吕":"l", "施":"m", "张":"n", "孔":"o", "曹":"p", "严":"q", "华":"r", "金":"s", "魏":"t",
-        "陶":"u", "姜":"v", "戚":"w", "谢":"x", "邹":"y", "喻":"z", "福":"A", "水":"B", "窦":"C", "章":"D",
-        "云":"E", "苏":"F", "潘":"G", "葛":"H", "奚":"I", "范":"J", "彭":"K", "郎":"L", "鲁":"M", "韦":"N",
-        "昌":"O", "马":"P", "苗":"Q", "凤":"R", "花":"S", "方":"T", "俞":"U", "任":"V", "袁":"W", "柳":"X",
-        "唐":"Y", "罗":"Z", "薛":".", "伍":"-", "余":"_", "米":"+", "贝":"=", "姚":"/", "孟":"?", "顾":"#",
-        "尹":"%", "江":"&", "钟":"*"
-    };
+	var magnetHeader = "magnet:?xt=urn:btih:"
+	var nameMap = {
+		"赵": "0", "钱": "1", "孙": "2", "李": "3", "周": "4", "吴": "5", "郑": "6", "王": "7", "冯": "8", "陈": "9",
+		"褚": "a", "卫": "b", "蒋": "c", "沈": "d", "韩": "e", "杨": "f", "朱": "g", "秦": "h", "尤": "i", "许": "j",
+		"何": "k", "吕": "l", "施": "m", "张": "n", "孔": "o", "曹": "p", "严": "q", "华": "r", "金": "s", "魏": "t",
+		"陶": "u", "姜": "v", "戚": "w", "谢": "x", "邹": "y", "喻": "z", "福": "A", "水": "B", "窦": "C", "章": "D",
+		"云": "E", "苏": "F", "潘": "G", "葛": "H", "奚": "I", "范": "J", "彭": "K", "郎": "L", "鲁": "M", "韦": "N",
+		"昌": "O", "马": "P", "苗": "Q", "凤": "R", "花": "S", "方": "T", "俞": "U", "任": "V", "袁": "W", "柳": "X",
+		"唐": "Y", "罗": "Z", "薛": ".", "伍": "-", "余": "_", "米": "+", "贝": "=", "姚": "/", "孟": "?", "顾": "#",
+		"尹": "%", "江": "&", "钟": "*", "竺": ":", "赖": "|"
+	}
 
-    var b = document.getElementById("b");
-    b.addEventListener("click", function() {
-        var str = document.getElementById("a").value;
-        str=str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
-        var strc = str.split("");
-        var c  = '';
-        for(var i=0;i<strc.length;i++){
-            var o=cy(obja,strc[i]);
-            c +=o;
-        }
-        c=t+c;
-        document.getElementById('c').value=c;
-    });
+	function transToMagnet(str) {
+		str = str.replace(/^\s\s*/, '').replace(/\s\s*$/, '')
+		var strc = str.split("")
+		var c = ''
+		for (var i = 0; i < strc.length; i++) {
+			var o = cy(nameMap, strc[i])
+			c += o
+		}
 
-    var d = document.getElementById("d");
-    d.addEventListener("click", function() {
-        var str = document.getElementById("c").value;
-        str=str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
-        var v=str.replace(/magnet:\?xt=urn:btih:/,"");
-        var strc = v.split("");
-        var a  = '';
-        for(var i=0;i<strc.length;i++){
-            a +=ay(obja,strc[i]);
-        }
-        document.getElementById('a').value=a;
-    });
+		return isMagnet(magnetHeader + c) ? magnetHeader + c : c
+	}
 
+	function transToName(str) {
+		str = str.replace(/^\s\s*/, '').replace(/\s\s*$/, '')
+		var v = str.replace(/magnet:\?xt=urn:btih:/, "")
+		var strc = v.split("")
+		var a = ''
+		for (var i = 0; i < strc.length; i++) {
+			a += ay(nameMap, strc[i])
+		}
+		return a
+	}
 
-    function cy(array,val){
-        for( var key in array ){
-            if(key==val){
-                return array[key];
-            }
-        }
-        return '';
-    }
-    function ay(array,val){
-        for( var key in array ){
-            if(array[key]==val){
-                return key;
-            }
-        }
-        return '';
-    }
+	function cy(array, val) {
+		for (var key in array) {
+			if (key == val) {
+				return array[key]
+			}
+		}
+		return ''
+	}
+
+	function ay(array, val) {
+		for (var key in array) {
+			if (array[key] == val) {
+				return key
+			}
+		}
+		return ''
+	}
+
+	function isLink(text) {
+		let regex = /^[\u4E00-\u9FA5]+$/
+		return regex.test(text)
+	}
+
+	function isMagnet(text) {
+		let regex = /^magnet:\?xt=urn:btih:[0-9a-fA-F]{40,}.*$/
+		return regex.test(text)
+	}
+
+	var timer
+	var myTextArea = document.getElementById("myTextArea")
+	var copyResult = document.getElementById("copyResult")
+	var transResult = document.getElementById("transResult")
+	myTextArea.addEventListener("input", function () {
+		clearTimeout(timer)
+		transResult.textContent = "转换中..."
+		timer = setTimeout(function () {
+			let tempText = myTextArea.value.replace(/\s+/g, "")
+			transResult.textContent = isLink(tempText) ? transToMagnet(tempText) : transToName(tempText)
+		}, 1000)
+	})
+	copyResult.addEventListener("click", function () {
+		let result = transResult.textContent
+		if (result.replace(/\s+/g, "").length === 0) {
+			alert("请先输入要转换的百家姓/磁力链接~")
+		} else {
+			if (location.protocol === 'https:') {
+				navigator.clipboard.writeText(result).then(() => {
+					alert("复制成功~")
+				}).catch((err) => {
+					alert("复制失败，请手动复制(╥﹏╥)")
+				})
+			} else {
+				const inputNode = document.createElement('input')
+				inputNode.value = result
+				document.body.appendChild(inputNode)
+				inputNode.select()
+				document.execCommand('copy')
+				alert("复制成功~")
+				document.body.removeChild(inputNode)
+			}
+		}
+	})
 </script>
-</center>
 </html>
