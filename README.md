@@ -40,3 +40,7 @@
 ---
 
 > [@Blog](https://blog.dooglu.cn) · [@开发者工具](https://tool.dooglu.com) · [@百家姓加解密](https://t.dooglu.com) · 
+
+### Support it
+
+> <img src="https://cdn.dooglu.cn/pay/alipay.png"/><img src="https://cdn.dooglu.cn/pay/wxpay.png"/>
