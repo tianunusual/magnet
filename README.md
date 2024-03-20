@@ -21,7 +21,7 @@ denmo:https://dn.ane.ee/t.html
 
 --------------------------------------------------------------------
 ### Contact Me
-- E-mail：[admin@udian.net]
+- E-mail：admin@udian.net
 - QQ Number：[577766600]
 - Telegram：[@udian](https://t.me/uidian)
 - Twitter：[@doogluo](https://twitter.com/doogluo)
