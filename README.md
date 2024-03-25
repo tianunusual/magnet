@@ -15,9 +15,9 @@
 
 ### renderings
 
-<img src="https://dn.9t.ee/image/github/magnet.png"/>
+<img src="https://dn.mc.ci/image/github/magnet.png"/>
 
-denmo:https://dn.9t.ee/t.html
+denmo:https://dn.mc.ci/t.html
 
 --------------------------------------------------------------------
 ### Contact Me
@@ -38,7 +38,6 @@ denmo:https://dn.9t.ee/t.html
 
 - *.9t.ee
 - *.upan.ee
-- *.ane.ee
 - *.uidian.net
 
 ---
@@ -47,5 +46,5 @@ denmo:https://dn.9t.ee/t.html
 
 ### Support it
 
-> <img src="https://dn.9t.ee/image/github/alipay.png"/><img src="https://dn.9t.ee/image/github/wxpay.png"/>
+> <img src="https://dn.mc.ci/image/github/alipay.png"/><img src="https://dn.mc.ci/image/github/wxpay.png"/>
 
