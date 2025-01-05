@@ -22,10 +22,10 @@ denmo:https://dn.mc.ci/t.html
 
 --------------------------------------------------------------------
 ### Contact Me
-- E-mail：about@mc.ci
-- Telegram：[@hi_mcc](https://t.me/hi_mcc)
+- E-mail：about@xk.ee
+- Telegram：[@hi_mcc](https://t.me/hi_foxm)
 - Twitter：[@doogluo](https://twitter.com/doogluo)
-- GitHub：[@李木晚晚晚晚](https://github.com/tianunusual)
+- GitHub：[@消失的狐狸菌](https://github.com/tianunusual)
 
 ### My group chat
 
@@ -36,10 +36,10 @@ denmo:https://dn.mc.ci/t.html
 
 - *.9t.ee
 - *.mc.ci
-- *.006**1.xyz
+- *.xk.ee
 - *.005**1.xyz
 - *.001**1.xyz
 
 ---
 
-> [@Blog](https://blog.mc.ci/) · [@OSS列表](https://buck.mc.ci) · 
+> [@Blog](https://blog.xk.ee/) · [@OSS列表](https://buck.mc.ci) · 
