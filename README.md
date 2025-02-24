@@ -17,7 +17,7 @@
 
 <img src="https://dn.mc.ci/image/github/magnet.png"/>
 
-denmo:https://dn.mc.ci/t.html
+denmo:https://r2.xk.ee/bt.html
 
 
 --------------------------------------------------------------------
