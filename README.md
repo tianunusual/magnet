@@ -23,7 +23,7 @@ denmo:https://bt.douke.org/
 --------------------------------------------------------------------
 ### Contact Me
 - E-mail：about@xk.ee
-- Telegram：[@消失的狐狸菌](https://t.me/hi_foxm)
+- Telegram：[@消失的狐狸菌](https://t.me/Jun_disappear)
 - Twitter：[@Hi_foxm]([silk-129](https://x.com/Hi_foxm))
 - GitHub：[@消失的狐狸菌](https://github.com/tianunusual)
 
