@@ -15,16 +15,16 @@
 
 ### renderings
 
-<img src="https://dn.mc.ci/image/github/magnet.png"/>
+<img src="https://apac.ele.cm/Github/image/magnet.jpg"/>
 
-denmo:https://bt.douke.org/
+denmo:https://bt.ele.cm/
 
 
 --------------------------------------------------------------------
 ### Contact Me
 - E-mail：about@xk.ee
-- Telegram：[@消失的狐狸菌](https://t.me/Jun_disappear)
-- Twitter：[@Hi_foxm]([silk-129](https://x.com/Hi_foxm))
+- Telegram：[@Jun_disappear](https://t.me/@Jun_disappear)
+- Twitter：[@消失的狐狸菌](https://x.com/Jun_disappear)
 - GitHub：[@消失的狐狸菌](https://github.com/tianunusual)
 
 ### My group chat
@@ -34,12 +34,10 @@ denmo:https://bt.douke.org/
 
 ### belongs to us
 
-- *.9t.ee
-- *.mc.ci
 - *.xk.ee
-- *.005**1.xyz
-- *.001**1.xyz
-
+- *.ele.cm
+- *.ku.kg
+- *.douke.org
 ---
 
-> [@Blog](https://blog.xk.ee/) · [@OSS列表](https://buck.mc.ci) · 
+> [@Blog](https://blog.xk.ee/) · [@OIPPA列表](https://list.xk.ee) · 
