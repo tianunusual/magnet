@@ -40,4 +40,4 @@ denmo:https://bt.ele.cm/
 - *.douke.org
 ---
 
-> [@Blog](https://blog.xk.ee/) · [@OIPPA列表](https://list.xk.ee) · 
+> [@Blog](https://blog.xk.ee/) · [@IPPA列表](https://list.xk.ee) · 
