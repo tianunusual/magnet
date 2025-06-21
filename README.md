@@ -15,7 +15,7 @@
 
 ### renderings
 
-<img src="https://apac.ele.cm/Github/image/magnet.jpg"/>
+<img src="https://i.ku.cm/github/image/magnet.jpg"/>
 
 denmo:[https://bt.cloud-m.us/](https://bt.cloud-m.us/)
 
@@ -41,4 +41,7 @@ denmo:[https://bt.cloud-m.us/](https://bt.cloud-m.us/)
 - *.douke.org
 ---
 
-> [@Blog](https://blog.xk.ee/) · [@IPPA列表](https://list.xk.ee) · 
+> [@Blog](https://blog.xk.ee/) · [@IPPA列表](https://list.ele.cm) · 
+
+<h2>😊、Sponsored Advertising<h2>
+<a href="https://app.cloudcone.com/?ref=7733" target="_blank"><img src="https://apac.ele.cm/cloudcone_banner.gif" style="width:1200px; height:100px;" /></a>
