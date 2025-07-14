@@ -17,8 +17,7 @@
 
 <img src="https://i.ku.cm/github/image/magnet.jpg"/>
 
-denmo:[https://bt.cloud-m.us/](https://bt.cloud-m.us/)
-
+denmo:[hhttps://ah.xk.ee/](hhttps://ah.xk.ee/)
 
 --------------------------------------------------------------------
 ### Contact Me
