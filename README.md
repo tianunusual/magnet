@@ -45,4 +45,4 @@ Tracker服务器节点：https://tracker.xk.ee/
 > [@Blog](https://blog.xk.ee/) · [@IPPA列表](https://list.ele.cm) · 
 
 <h2>😊、Sponsored Advertising<h2>
-<a href="https://app.cloudcone.com/?ref=7733" target="_blank"><img src="https://apac.ele.cm/cloudcone_banner.gif" style="width:1200px; height:100px;" /></a>
+<a href="https://app.cloudcone.com/?ref=12916" target="_blank"><img src="https://apac.ele.cm/cloudcone_banner.gif" style="width:1200px; height:100px;" /></a>
